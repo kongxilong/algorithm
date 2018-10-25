@@ -1,0 +1,9 @@
+# Bazel
+bazel-roadstar
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-testlogs
+WORKSPACE
+
+# binary
