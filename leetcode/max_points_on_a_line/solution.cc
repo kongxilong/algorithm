@@ -1,4 +1,4 @@
-#include "max_points_on_a_line.h"
+#include "leetcode/max_points_on_a_line/solution.h"
 #include <map>
 
 namespace solution {

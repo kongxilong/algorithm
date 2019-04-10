@@ -13,5 +13,6 @@ class Solution {
 public:
   int maxPoints(vector<Point> &points);
 };
+
 } // namespace solution
 

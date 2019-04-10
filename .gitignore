@@ -4,6 +4,7 @@ bazel-bin
 bazel-genfiles
 bazel-out
 bazel-testlogs
-WORKSPACE
 
-# binary
+# vim
+.swp
+.*.un~
