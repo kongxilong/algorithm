@@ -1,6 +1,6 @@
 #include <vector>
 // defination for a point.
-namespace solution {
+namespace max_points {
   using namespace std;
 struct Point {
   int x;
@@ -14,5 +14,5 @@ public:
   int maxPoints(vector<Point> &points);
 };
 
-} // namespace solution
+} // namespace max_points
 

@@ -6,7 +6,7 @@
 #include <vector>
 #include "gtest/gtest.h"
 
-namespace solution {
+namespace max_points {
 
 TEST(SolutionTest, SimpleTest) {
   std::vector<Point> case0{Point(0, 0), Point(0, 0),Point{1,1}};
@@ -16,4 +16,4 @@ TEST(SolutionTest, SimpleTest) {
   EXPECT_EQ(solution.maxPoints(case1),2);
 }
 
-}  // namespace solution
+}  // namespace max_points

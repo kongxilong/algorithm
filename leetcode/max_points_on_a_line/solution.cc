@@ -1,7 +1,7 @@
 #include "leetcode/max_points_on_a_line/solution.h"
 #include <map>
 
-namespace solution {
+namespace max_points {
 
 using namespace std;
 
@@ -44,4 +44,4 @@ int Solution::maxPoints(vector<Point> &points) {
   return ret;
 }
 
-} // namespace solution
+} // namespace max_points
