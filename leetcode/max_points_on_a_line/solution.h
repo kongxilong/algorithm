@@ -1,17 +1,12 @@
 #include <vector>
+
+#include "leetcode/common/point.h"
 // defination for a point.
 namespace max_points {
-  using namespace std;
-struct Point {
-  int x;
-  int y;
-  Point() : x(0), y(0) {}
-  Point(int a, int b) : x(a), y(b) {}
-};
 
 class Solution {
 public:
-  int maxPoints(vector<Point> &points);
+  int maxPoints(std::vector<common::Point> &points);
 };
 
 } // namespace max_points

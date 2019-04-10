@@ -3,6 +3,9 @@ cc_library(
     name = "solution",
     hdrs = [ "solution.h",],
     srcs = [ "solution.cc",],
+    deps = [
+        "//leetcode/common:point",
+    ],
     visibility = ["//visibility:public"],
 )
 
@@ -16,6 +19,7 @@ cc_test(
     copts = ["-Iexternal/gtest/include"],
     deps = [
         ":solution",
+        "//leetcode/common:point",
         "@gtest//:main",
     ],
 )

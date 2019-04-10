@@ -3,9 +3,8 @@
 
 namespace max_points {
 
-using namespace std;
 
-int Solution::maxPoints(vector<Point> &points) {
+int Solution::maxPoints(std::vector<common::Point> &points) {
   if (points.size() <= 2) {
     return points.size();
   }
