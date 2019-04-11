@@ -1,18 +1,13 @@
 #include <vector>
 
+#include "leetcode/common/list_node.h"
+
 namespace sort_linked_list {
-  using namespace std;
-struct Point {
-  int x;
-  int y;
-  Point() : x(0), y(0) {}
-  Point(int a, int b) : x(a), y(b) {}
-};
+using namespace std;
 
 class Solution {
 public:
-  int maxPoints(vector<Point> &points);
+  ListNode *sortList(common::ListNode *head);
 };
 
-} // namespace max_points
-
+} // namespace sort_linked_list

@@ -5,4 +5,9 @@ cc_library(
     visibility = ["//visibility:public"],
 )
 
+cc_library(
+    name = "list_node",
+    hdrs = [ "list_node.h",],
+    visibility = ["//visibility:public"],
+)
 
